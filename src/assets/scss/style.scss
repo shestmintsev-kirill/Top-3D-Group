@@ -428,11 +428,8 @@ summary {
   &_footer {
     select {
       font-weight: bold;
-
-      &::-ms-expand {
-        color: red;
-      }
     }
+
     @media (max-width: $screen-lg-max) {
       ul {
         display: flex;
@@ -679,6 +676,8 @@ summary {
   }
 }
 
+//*footer
+
 .section-footer {
   max-width: 1440px;
   margin-left: auto;
@@ -772,3 +771,4 @@ summary {
     }
   }
 }
+//*footer
